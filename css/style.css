@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+    font-size: 1.15rem;
+    background-color: #384796;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper-outer {
+    background-color: #1C2D87;
+    width: 93vw;
+    margin: auto;
+}
+
+.wrapper-inner {
+    background-color: #001378;
+    width: 86vw;
+    margin: auto;
+}
+
+.navbar-toggler {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    transform: scale(1.3);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-brand img {
+    width: 180px;
+}
+
+.navbar-expand-md .navbar-nav {
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.social-header-link {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.btn-donate {
+    color: #fff !important;
+    border: 1px solid #fff;
+    font-weight: 700;
+    border-radius: 0px;
+    padding: 0.25rem 1.5rem !important;
+    transition: 0.3s;
+}
+
+.btn-donate:hover {
+    color: #001378 !important;
+    background-color: #fff;
+}
+
+/* home section */
+
+.home-banner-image {
+    border-radius: 140px;
+}
+
+.banner-logo {
+    width: 250px;
+}
+
+.home-banner-heading {
+    font-size: 4rem;
+    line-height: 1.1;
+    font-weight: 900;
+    padding-top: 3rem;
+}
+
+.image-border-radius {
+    border-radius: 60px;
+}
+
+@media (min-width: 1500px) {
+    .home-banner-heading {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .form-wrapper {
+        position: unset !important;
+        margin: 20px 20px 0;
+    }
+
+    .home-banner-heading {
+        font-size: 3.5rem;
+    }
+
+    .home-banner-row {
+        align-items: center;
+    }
+
+    .banner-logo {
+        margin-top: 2.5rem;
+    }
+
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 767px) {
+    .navbar-expand-md>.container {
+        flex-direction: column;
+    }
+
+    .home-logo-hide {
+        display: none !important;
+    }
+
+    .btn-donate {
+        margin-top: 10px;
+    }
+
+    nav.navbar {
+        padding-top: 3rem;
+    }
+
+    .home-banner-heading {
+        font-size: 2.75rem;
+    }
+
+    .wrapper-outer,
+    .wrapper-inner {
+        width: 100%;
+    }
+
+    .home-banner-image {
+        border-radius: 100px;
+    }
+}
+
+/* form home */
+
+.form-wrapper {
+    width: 60%;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #384796;
+    border-radius: 40px;
+    padding: 20px 30px;
+}
+
+.form-heading {
+    position: relative;
+}
+
+.form-heading span {
+    background-color: #384796;
+    color: #C6CAE1;
+    position: sticky;
+    padding-right: 10px;
+    font-size: 1.5rem;
+    z-index: 10;
+}
+
+.form-heading::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #C6CAE1;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-submit {
+    background-color: #001378;
+    color: #fff;
+    border-radius: 30px;
+    border: none !important;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0.8rem 2.4rem;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.form-check {
+    transform: translateY(-5px);
+}
+
+.form-check-label {
+    font-size: 14px;
+}
+
+.form-check-input {
+    border-radius: 50% !important;
+}
+
+
+/* footer */
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    display: flex;
+    gap: 0.5rem;
+    padding-right: 0.65rem;
+}
+
+.footer-links a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
