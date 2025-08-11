@@ -56,15 +56,16 @@ img {
 
 .btn-donate {
     color: #fff !important;
-    border: 1px solid #fff;
+    background-color: #AF272F;
+    border: 2px solid #AF272F;
     font-weight: 700;
-    border-radius: 0px;
+    border-radius: 15px;
     padding: 0.25rem 1.5rem !important;
     transition: 0.3s;
 }
 
 .btn-donate:hover {
-    color: #001378 !important;
+    color: #AF272F !important;
     background-color: #fff;
 }
 
@@ -95,7 +96,7 @@ img {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     .form-wrapper {
         position: unset !important;
         margin: 20px 20px 0;
@@ -115,7 +116,11 @@ img {
 
 }
 
-@media (max-width: 992px) {}
+@media (max-width: 992px) {
+    .home-banner-heading {
+        font-size: 3rem;
+    }
+}
 
 @media (max-width: 767px) {
     .navbar-expand-md>.container {
@@ -135,7 +140,7 @@ img {
     }
 
     .home-banner-heading {
-        font-size: 2.75rem;
+        font-size: 3.5rem;
     }
 
     .wrapper-outer,
@@ -145,6 +150,12 @@ img {
 
     .home-banner-image {
         border-radius: 100px;
+    }
+}
+
+@media (max-width: 567px) {
+    .home-banner-heading {
+        font-size: 2.75rem;
     }
 }
 
